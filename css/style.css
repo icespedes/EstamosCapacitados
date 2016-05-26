@@ -1,0 +1,125 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav {
+  height: 120px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .title-ec {
+    font-size: 50px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.title-ec {
+  color: #0070C0 !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.subtitle-ec {
+  font-size: 30px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+.subtitle-ec-small
+{
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+
+.subtitle-ec-small:hover {
+  background: rgba(0, 112, 192, 0.7);
+}
+
+.subtitle-ec:hover {
+  background: rgba(0, 112, 192, 0.7);
+}
+
+.drop-color {
+  margin-top: 40px;
+  background-color: #FFC000;
+}
+
+.drop-color:hover {
+  background-color: #FFC000;
+}
+
+.drop-cont-css {
+  margin-top: 80px;
+}
+
+.drop-cont-css li a {
+  color: #6FB0DE;
+}
+
+.btn-collap-css {
+  color: #FFC000;
+}
+
+.iconos-css {
+  font-size: 80px;
+  color: #FFC000;
+}
+
+.footer-css {
+  background: #0070C0 !important;
+}
